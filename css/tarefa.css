@@ -4,8 +4,22 @@
     box-sizing: border-box;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+
+    font-size: 16px;
+    margin-top: 0;
+    overflow-wrap: break-word;
+    text-align: left; 
+    line-height: 1.3;
+}
+
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -21,13 +35,14 @@ header h1 {
 
 header p {
     font-size: 18px;
+    text-align: center;
+
 }
 
 
 .link {
     background-color: #363434;
     padding: 10px;
-    flex-direction: row;
     display: flex;
 }
 .link a {
@@ -36,15 +51,28 @@ header p {
     font-size: 20px;
     text-decoration: none;
 }
-.lateral-esquerda {
-    background-color: #a09e9e;
 
-    padding: 100px 20px;
-    width: 17%;
+.link button {
+background: transparent;
+    border: none;
+    color: white;
+    padding: 10px 8px;
+    cursor: pointer;
 }
+.link button:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+}
+
+.lateral-esquerda {
+    background-color: #ececec;
+    padding: 15px 20px;
+    width: 18%;
+    
+}
+
 .coluna {
     display: flex;
-    flex-direction: row;
 }
 
 .centro {
@@ -58,7 +86,7 @@ header p {
 }
 .lateral-direita {
     margin: 20px;
-    width: 20%;    
+    width: 12%;    
 }
 .rodape p {
     margin: 0px;
@@ -73,13 +101,11 @@ header p {
 @media (max-width: 700px) {
 
     .link {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .coluna {
-        display: flex;
         flex-direction: column;
     }
 
@@ -95,5 +121,15 @@ header p {
    .lateral-direita {
         width: 100%;
         margin: 20px 0;
+    }
+
+    .link button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .link button:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 5px;
     }
 }
