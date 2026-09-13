@@ -1,1 +1,4 @@
-Adição de conteudos dos links e direitos ao fim da pagina
+Versão final agora vai:
+Correção de imagens
+Descrição abaixo de cada imagem
+Direitos reservados e afins
