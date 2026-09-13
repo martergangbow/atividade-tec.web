@@ -5,9 +5,9 @@ Sobre o Projeto
 O **Portal Gaimes** é um site informativo dedicado ao universo dos eSports e dos games. O portal reúne as principais notícias do momento, como atualizações sobre campeonatos (VCT Américas, Valorant Champions, CBLOL), novidades sobre grandes lançamentos como GTA VI, premiações da indústria (The Game Awards) e artigos reflexivos sobre a importância da psicologia nos esportes eletrônicos.
 
  Integrantes do Grupo
- André
- Alysson
- João Pedro
+ Andre Lucas de Jesus Soares.
+ Alysson Queiroz da Silva.
+ João Pedro Ribeiro Dos Santos.
  
  Como Visualizar a Página
 1. Faça o download ou clone este repositório para o seu computador.
