@@ -40,31 +40,31 @@ header p {
 }
 
 
-.link {
+nav {
     background-color: #363434;
     padding: 10px;
     display: flex;
 }
-.link a {
+nav a {
     color: white;
     padding: 5px 25px;
     font-size: 20px;
     text-decoration: none;
 }
 
-.link button {
+nav button {
 background: transparent;
     border: none;
     color: white;
-    padding: 10px 8px;
+    padding: 5px 1px;
     cursor: pointer;
 }
-.link button:hover{
+nav button:hover{
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 5px;
 }
 
-.lateral-esquerda {
+aside {
     background-color: #ececec;
     padding: 15px 20px;
     width: 18%;
@@ -100,7 +100,7 @@ background: transparent;
 
 @media (max-width: 700px) {
 
-    .link {
+    nav {
         flex-direction: column;
         align-items: center;
     }
@@ -114,7 +114,7 @@ background: transparent;
         margin: 20px 0;
     }
 
-    .lateral-esquerda {
+    aside {
         width: 100%;
 
     }
@@ -123,12 +123,12 @@ background: transparent;
         margin: 20px 0;
     }
 
-    .link button {
+    nav button {
         width: 100%;
         padding: 15px;
     }
 
-    .link button:hover {
+    nav button:hover {
         background-color: rgba(255, 255, 255, 0.15);
         border-radius: 5px;
     }
